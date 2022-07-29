@@ -54,6 +54,7 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
     public GameObject loonka;
 
     public GameObject SkipButton;
+    public GameObject SkipButtonBack;
 
     public Labyrinth[] mazes;
 
@@ -124,7 +125,7 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
 #endif
         rotsum = 0f;
 
-        playerState.Load();
+        //playerState.Load();
 
         playerState.LevelStart();
 
@@ -134,7 +135,8 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
         if(targetAspect > currentAspect)
         Camera.main.transform.position = Vector3.back * 16f * targetAspect / currentAspect;
 
-        SkipButton.SetActive(AdsAnaliticsManager.instance.CanShowRewarded());
+        SkipButton.SetActive(true);
+        SkipButtonBack.SetActive(true);
 
         if(PlayerPrefs.GetInt(IAP_Manager.kProductIDNonConsumable) == 1)
         {

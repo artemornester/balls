@@ -251,7 +251,7 @@ public class ApplovinAd : BaseAd, IPurchaseObserver
     {
         foreach (var observer in AdsAnaliticsManager.rewardedObservers)
         {
-            observer.OnRewardedNotReady();
+            observer.OnRewardedReady();
         }
 
         MaxSdk.LoadRewardedAd(rewardedAdUnitId);

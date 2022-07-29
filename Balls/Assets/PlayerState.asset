@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a556501dd7a7d47bacbd8dd3bb2840, type: 3}
   m_Name: PlayerState
   m_EditorClassIdentifier: 
-  best: 585
+  best: 0
   ads: 0
-  level: 3
-  totalBalls: 34
-  totalBallsPerfect: 35
+  level: 0
+  totalBalls: 0
+  totalBallsPerfect: 0
   capturedBalls: 0
   totalWaves: 3
-  wave: 1
+  wave: 0
   vibrate: 1

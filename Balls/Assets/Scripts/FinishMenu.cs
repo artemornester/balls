@@ -149,6 +149,18 @@ public class FinishMenu : MonoBehaviour, ILevelObserver
         }
     }
 
+    void Back()
+    {
+        playerState.level--;
+        playerState.Save();
+        SceneManager.LoadScene(1);
+    }
+
+    public void Previous()
+    {
+        Back();
+    }
+
     public void OnLevelStart()
     {
     }
