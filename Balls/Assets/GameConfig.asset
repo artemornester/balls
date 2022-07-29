@@ -148,8 +148,10 @@ MonoBehaviour:
   ball: {fileID: 4803738439568453723, guid: ef7f45f562fed4940b8d891a8ea3dc88, type: 3}
   ballBig: {fileID: 4803738439568453723, guid: b7516d6d81dd31c44af5ec7ddbb50a19, type: 3}
   ballMid: {fileID: 4803738439568453723, guid: 6e1e1ab17a5d0ca49aabbbb775f4175e, type: 3}
-  appleBall: {fileID: -7117921481775629354, guid: 426b44a7575f71e479fab4f4e8431989,
-    type: 3}
+  fruitsBalls:
+  - {fileID: -7117921481775629354, guid: 426b44a7575f71e479fab4f4e8431989, type: 3}
+  - {fileID: 6468518636051731023, guid: 2f2e54b9f3898eb46a0b47f9a4d4c52b, type: 3}
+  - {fileID: -1420635494219664139, guid: 3ce32ffa6ccf60e4ab65d9e396f43433, type: 3}
   wavesCount: 3
   backgroundsStr:
   - Assets/Resources/Textures/BG1.png
