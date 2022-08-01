@@ -31,7 +31,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 127c08cf5e8fce443a0fc345a1cd728b, type: 3}
-    totalSpriteSurfaceArea: 1056002
+    totalSpriteSurfaceArea: 1068546
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -56,6 +56,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f24d788c595a5224c856607030eee529, type: 3}
   - {fileID: 21300000, guid: b35bfbfc95bfe394295303a6a77a9788, type: 3}
   - {fileID: 21300000, guid: 73721fdecafc12a48868e4c16e2c13f9, type: 3}
+  - {fileID: 21300000, guid: b780336f0b5320347ae6a10d79ce2a35, type: 3}
   m_PackedSpriteNamesToIndex:
   - SoundOffButton
   - ADSButton
@@ -78,5 +79,6 @@ SpriteAtlas:
   - ButtonHalfCircle
   - VibroOnButton
   - WhiteDotFull
+  - icon_arrow_back
   m_Tag: Sprites
   m_IsVariant: 0
