@@ -145,7 +145,7 @@ MonoBehaviour:
   - Assets/Resources/Prefabs/Fun/Labyrinth_fun_5.prefab
   - Assets/Resources/Prefabs/Fun/Labyrinth_fun_6.prefab
   - Assets/Resources/Prefabs/Fun/Labyrinth_fun_7.prefab
-  ball: {fileID: 4803738439568453723, guid: ef7f45f562fed4940b8d891a8ea3dc88, type: 3}
+  ball: {fileID: 4803738439568453723, guid: b7999ab410858b8458d5b496e15ef57b, type: 3}
   ballBig: {fileID: 4803738439568453723, guid: b7516d6d81dd31c44af5ec7ddbb50a19, type: 3}
   ballMid: {fileID: 4803738439568453723, guid: 6e1e1ab17a5d0ca49aabbbb775f4175e, type: 3}
   fruitsBalls:
