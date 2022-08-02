@@ -390,14 +390,19 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
                 if (count >= max) continue;
 
                 Ball ballPrefab;
-                if(playerState.level != 4)
+
+                switch (playerState.level)
                 {
-                    ballPrefab = ballSize == 2 ? gameConfig.ballBig : ballSize == 1 ? gameConfig.ballMid : gameConfig.ball;
-                }
-                else
-                {
-                    var randomBallIndex = (int)Random.Range(0f, 2f);
-                    ballPrefab = gameConfig.fruitsBalls[randomBallIndex];
+                    case 4:
+                        var randomBallIndex = (int)Random.Range(0f, 2f);
+                        ballPrefab = gameConfig.fruitsBalls[randomBallIndex];
+                        break;
+                    case 5:
+                        ballPrefab = gameConfig.waterBall;
+                        break;
+                    default:
+                        ballPrefab = ballSize == 2 ? gameConfig.ballBig : ballSize == 1 ? gameConfig.ballMid : gameConfig.ball;
+                        break;
                 }
 
                 var ball = Instantiate(ballPrefab, newLab.transform);

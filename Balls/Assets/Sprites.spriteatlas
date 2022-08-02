@@ -31,7 +31,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 127c08cf5e8fce443a0fc345a1cd728b, type: 3}
-    totalSpriteSurfaceArea: 1068546
+    totalSpriteSurfaceArea: 1134082
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -48,6 +48,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a3e357595eb43d547afeb4d752f00a5f, type: 3}
   - {fileID: 21300000, guid: 5f5ef91a7ff783641be206edc6f2a313, type: 3}
   - {fileID: 21300000, guid: 72e1083af4e7b114b888e5f1b3beffb7, type: 3}
+  - {fileID: 21300000, guid: 46670aaadfb15b8499009fe2cff4d706, type: 3}
   - {fileID: 21300000, guid: b9faacda8dbfddb4aab575f871ced2a8, type: 3}
   - {fileID: 21300000, guid: 08a9f63b57a96884b8efa5fa12e1ac00, type: 3}
   - {fileID: 21300000, guid: 2d8af55bcec80f8439cbf86770ee2e0b, type: 3}
@@ -71,6 +72,7 @@ SpriteAtlas:
   - SettingsButton
   - icon_ads
   - SoundOnButton
+  - Circle Soft
   - RestorButton
   - SkipButtonBack
   - ButtonHalfCircleBack
